@@ -1,0 +1,40 @@
+.title-cont{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-cont{
+    /* border: 1px solid black; */
+    margin-top: 4%;
+    margin-bottom: 1%;
+    background-color: white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr{
+    height: 55px;
+}
+
+tr{
+    border-bottom: 1px solid rgb(104, 103, 103);
+}
+
+table th, table td{
+    padding: 0 20px;
+    text-align: end;
+}
+
+table td:nth-child(1){
+    text-align: left;
+}
+
+.add-new-st{
+    padding: 0 40px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
